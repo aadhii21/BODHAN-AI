@@ -257,7 +257,7 @@ tokenspeed-triton==3.8.10.post20260721
 tqdm==4.70.0
 transformers==5.13.1
 trl==1.6.0
-truststore==0.10.4
+truststore==0.10.5
 twine==7.0.0
 typer==0.27.1
 typing-extensions==4.16.0
