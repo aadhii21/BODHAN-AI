@@ -74,7 +74,7 @@ tts-data = [
 tts-train = [
   "torch>=2.11",
   "transformers==5.13.1",
-  "accelerate==1.14.0",
+  "accelerate==1.15.0",
   "datasets==5.0.1",
   "tokenizers==0.22.2",
   "peft==0.20.0",
@@ -140,7 +140,7 @@ mt-train = [
   "transformers==5.13.1",
   "trl==1.6.0",
   "peft==0.20.0",
-  "accelerate==1.14.0",
+  "accelerate==1.15.0",
   "datasets==5.0.1",
   "safetensors==0.8.0",
   "sentencepiece==0.2.2",
@@ -152,7 +152,7 @@ mt-infer = [
   "vllm>=0.20",
   "torch>=2.11",
   "transformers==5.13.1",
-  "accelerate==1.14.0",
+  "accelerate==1.15.0",
   "safetensors==0.8.0",
 ]
 # Serving is stock `vllm serve` (scripts/mt/serve.sh) plus a typed client.
